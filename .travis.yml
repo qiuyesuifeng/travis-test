@@ -5,3 +5,10 @@ go:
 
 script:
   - go test
+
+notifications:
+  email:
+    recipients:
+      - cuiqiu@pingcap.com
+    on_success: change
+    on_failure: always
