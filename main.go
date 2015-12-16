@@ -1,4 +1,4 @@
-package main
+package travis
 
 func hehe() int {
 	return 1
