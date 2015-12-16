@@ -9,6 +9,7 @@ script:
 notifications:
   email:
     recipients:
+      - cuiqiu@pingcap.com
       - test@pingcap.com
     on_success: change
     on_failure: always
